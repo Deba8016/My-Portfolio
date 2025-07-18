@@ -32,17 +32,17 @@ document.querySelectorAll('nav ul li a').forEach(anchor => {
   });
   
   // Contact Form Validation
-  const form = document.querySelector('form');
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
-    const name = form.querySelector('input[type="text"]');
-    const email = form.querySelector('input[type="email"]');
-    const message = form.querySelector('textarea');
+//   const form = document.querySelector('form');
+//   form.addEventListener('submit', function (e) {
+//     e.preventDefault();
+//     const name = form.querySelector('input[type="text"]');
+//     const email = form.querySelector('input[type="email"]');
+//     const message = form.querySelector('textarea');
     
-    if (name.value === '' || email.value === '' || message.value === '') {
-        alert('Please fill in all fields!');
-    } else {
-        alert('Message Sent! Thank you for reaching out.');
-        form.reset();  // Reset the form after successful submission
-    }
-  });
+//     if (name.value === '' || email.value === '' || message.value === '') {
+//         alert('Please fill in all fields!');
+//     } else {
+//         alert('Message Sent! Thank you for reaching out.');
+//         form.reset();  // Reset the form after successful submission
+//     }
+//   }); 
